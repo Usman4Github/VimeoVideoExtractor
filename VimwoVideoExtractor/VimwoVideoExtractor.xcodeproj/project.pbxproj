@@ -1,0 +1,404 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1090207120C932F20020CE19 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1090207020C932F20020CE19 /* AppDelegate.m */; };
+		1090207420C932F20020CE19 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1090207320C932F20020CE19 /* ViewController.m */; };
+		1090207720C932F20020CE19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1090207520C932F20020CE19 /* Main.storyboard */; };
+		1090207920C932F40020CE19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1090207820C932F40020CE19 /* Assets.xcassets */; };
+		1090207C20C932F40020CE19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1090207A20C932F40020CE19 /* LaunchScreen.storyboard */; };
+		1090207F20C932F40020CE19 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1090207E20C932F40020CE19 /* main.m */; };
+		1090208820C933290020CE19 /* VimeoVideoExtractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1090208620C933290020CE19 /* VimeoVideoExtractor.m */; };
+		82CA0D4D1788AC18B1F8D5CD /* libPods-VimwoVideoExtractor.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D2BEDEF7037F6EF398B6D2A /* libPods-VimwoVideoExtractor.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1090206C20C932F20020CE19 /* VimwoVideoExtractor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VimwoVideoExtractor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1090206F20C932F20020CE19 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1090207020C932F20020CE19 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1090207220C932F20020CE19 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1090207320C932F20020CE19 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1090207620C932F20020CE19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1090207820C932F40020CE19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1090207B20C932F40020CE19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1090207D20C932F40020CE19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1090207E20C932F40020CE19 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1090208620C933290020CE19 /* VimeoVideoExtractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VimeoVideoExtractor.m; sourceTree = "<group>"; };
+		1090208720C933290020CE19 /* VimeoVideoExtractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VimeoVideoExtractor.h; sourceTree = "<group>"; };
+		6865EC8C3860AF21B2E925C9 /* Pods-VimwoVideoExtractor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VimwoVideoExtractor.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VimwoVideoExtractor/Pods-VimwoVideoExtractor.debug.xcconfig"; sourceTree = "<group>"; };
+		6D2BEDEF7037F6EF398B6D2A /* libPods-VimwoVideoExtractor.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VimwoVideoExtractor.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		95312075B753F353289603D4 /* Pods-VimwoVideoExtractor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VimwoVideoExtractor.release.xcconfig"; path = "Pods/Target Support Files/Pods-VimwoVideoExtractor/Pods-VimwoVideoExtractor.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1090206920C932F20020CE19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82CA0D4D1788AC18B1F8D5CD /* libPods-VimwoVideoExtractor.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0251E2EDCB95EEBBF4E36394 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6D2BEDEF7037F6EF398B6D2A /* libPods-VimwoVideoExtractor.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1090206320C932F20020CE19 = {
+			isa = PBXGroup;
+			children = (
+				1090206E20C932F20020CE19 /* VimwoVideoExtractor */,
+				1090206D20C932F20020CE19 /* Products */,
+				D9AE06DB7656C159BE549B56 /* Pods */,
+				0251E2EDCB95EEBBF4E36394 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1090206D20C932F20020CE19 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1090206C20C932F20020CE19 /* VimwoVideoExtractor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1090206E20C932F20020CE19 /* VimwoVideoExtractor */ = {
+			isa = PBXGroup;
+			children = (
+				1090208520C933290020CE19 /* source */,
+				1090206F20C932F20020CE19 /* AppDelegate.h */,
+				1090207020C932F20020CE19 /* AppDelegate.m */,
+				1090207220C932F20020CE19 /* ViewController.h */,
+				1090207320C932F20020CE19 /* ViewController.m */,
+				1090207520C932F20020CE19 /* Main.storyboard */,
+				1090207820C932F40020CE19 /* Assets.xcassets */,
+				1090207A20C932F40020CE19 /* LaunchScreen.storyboard */,
+				1090207D20C932F40020CE19 /* Info.plist */,
+				1090207E20C932F40020CE19 /* main.m */,
+			);
+			path = VimwoVideoExtractor;
+			sourceTree = "<group>";
+		};
+		1090208520C933290020CE19 /* source */ = {
+			isa = PBXGroup;
+			children = (
+				1090208720C933290020CE19 /* VimeoVideoExtractor.h */,
+				1090208620C933290020CE19 /* VimeoVideoExtractor.m */,
+			);
+			path = source;
+			sourceTree = "<group>";
+		};
+		D9AE06DB7656C159BE549B56 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6865EC8C3860AF21B2E925C9 /* Pods-VimwoVideoExtractor.debug.xcconfig */,
+				95312075B753F353289603D4 /* Pods-VimwoVideoExtractor.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1090206B20C932F20020CE19 /* VimwoVideoExtractor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1090208220C932F40020CE19 /* Build configuration list for PBXNativeTarget "VimwoVideoExtractor" */;
+			buildPhases = (
+				F25B4528DAF86AE28F4ABDB1 /* [CP] Check Pods Manifest.lock */,
+				1090206820C932F20020CE19 /* Sources */,
+				1090206920C932F20020CE19 /* Frameworks */,
+				1090206A20C932F20020CE19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VimwoVideoExtractor;
+			productName = VimwoVideoExtractor;
+			productReference = 1090206C20C932F20020CE19 /* VimwoVideoExtractor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1090206420C932F20020CE19 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Usman Nisar";
+				TargetAttributes = {
+					1090206B20C932F20020CE19 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+				};
+			};
+			buildConfigurationList = 1090206720C932F20020CE19 /* Build configuration list for PBXProject "VimwoVideoExtractor" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1090206320C932F20020CE19;
+			productRefGroup = 1090206D20C932F20020CE19 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1090206B20C932F20020CE19 /* VimwoVideoExtractor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1090206A20C932F20020CE19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1090207C20C932F40020CE19 /* LaunchScreen.storyboard in Resources */,
+				1090207920C932F40020CE19 /* Assets.xcassets in Resources */,
+				1090207720C932F20020CE19 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F25B4528DAF86AE28F4ABDB1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VimwoVideoExtractor-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1090206820C932F20020CE19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1090207420C932F20020CE19 /* ViewController.m in Sources */,
+				1090207F20C932F40020CE19 /* main.m in Sources */,
+				1090207120C932F20020CE19 /* AppDelegate.m in Sources */,
+				1090208820C933290020CE19 /* VimeoVideoExtractor.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1090207520C932F20020CE19 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1090207620C932F20020CE19 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1090207A20C932F40020CE19 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1090207B20C932F40020CE19 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1090208020C932F40020CE19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1090208120C932F40020CE19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1090208320C932F40020CE19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6865EC8C3860AF21B2E925C9 /* Pods-VimwoVideoExtractor.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = VimwoVideoExtractor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.happycoding.VimwoVideoExtractor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1090208420C932F40020CE19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95312075B753F353289603D4 /* Pods-VimwoVideoExtractor.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = VimwoVideoExtractor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.happycoding.VimwoVideoExtractor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1090206720C932F20020CE19 /* Build configuration list for PBXProject "VimwoVideoExtractor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1090208020C932F40020CE19 /* Debug */,
+				1090208120C932F40020CE19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1090208220C932F40020CE19 /* Build configuration list for PBXNativeTarget "VimwoVideoExtractor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1090208320C932F40020CE19 /* Debug */,
+				1090208420C932F40020CE19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1090206420C932F20020CE19 /* Project object */;
+}
