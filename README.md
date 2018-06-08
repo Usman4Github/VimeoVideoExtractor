@@ -14,5 +14,9 @@ thumbQuality: and videoQuality can be changed as per requirement.
 
 see enums defined in VimeoVideoExtractor.h file for all possible video or thumbnail qualities.
 
+for swift 4.0:
+visit:
+https://github.com/Usman4Github/VimeoVideoExtractorSwift
+
 
 Happy coding.... 
